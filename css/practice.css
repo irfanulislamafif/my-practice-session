@@ -9,7 +9,14 @@ h2 {
     justify-content: center;
     cursor: pointer;
     
+    
 }
+.imag {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
 
 body {
   font-family: 'Noto Serif Bengali', serif;
@@ -28,3 +35,21 @@ body {
     display: flex;
 }
 
+.navbar {
+ position: sticky;     /* 👈 This makes it stay on top */
+  top: 0;               /* 👈 Sticks it to the top */
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  display: flex;        /* 👈 Flexbox used here */
+  justify-content: space-around;
+  padding: 1rem;
+  z-index: 1000;        /* 👈 Keeps it on top of other content */
+  font-weight: 600;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 👈 shadow effect */
+  border-top: 3px solid #e0e0e0;            /* 👈 top line */
+  border-bottom: 3px solid #e0e0e0;         /* 👈 bottom line */
+}
+
+.nav-item {
+    cursor: pointer;
+}
