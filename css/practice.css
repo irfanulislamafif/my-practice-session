@@ -1,0 +1,15 @@
+h2 {
+    font-weight: bold;
+
+     
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    
+}
+
+body {
+  font-family: 'Noto Serif Bengali', serif;
+}
