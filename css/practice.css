@@ -1,6 +1,6 @@
 h2 {
     font-weight: bold;
-
+    font-size: x-large;
      
 }
 
@@ -13,3 +13,16 @@ h2 {
 body {
   font-family: 'Noto Serif Bengali', serif;
 }
+.mahmud {
+    display: block;
+    margin-right: 20px;
+}
+.editorial {
+    display: block;
+
+}
+
+.flex-container {
+    display: flex;
+}
+
